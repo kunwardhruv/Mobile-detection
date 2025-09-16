@@ -1,0 +1,15 @@
+path : D:\Mobile Phone.v1i.yolov8
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Mobile-phone']
+
+roboflow:
+  workspace: face-mask-cx8xe
+  project: mobile-phone-gkqno-qwytp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-mask-cx8xe/mobile-phone-gkqno-qwytp/dataset/1
